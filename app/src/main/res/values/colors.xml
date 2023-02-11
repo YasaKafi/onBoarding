@@ -9,11 +9,4 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primaryColor">#304155</color>
     <color name="boxColor">#B3304155</color>
-
-    //background color Onboarding
-    <color name="background">#F0F4F3</color>
-
-    //indicator color
-    <color name="inactive">#C4C4C4</color>
-    <color name="active">#304155</color>
 </resources>
