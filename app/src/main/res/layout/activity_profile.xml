@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Profile"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="36dp"
+        android:textColor="@color/primaryColor"
+        android:textSize="32sp" />
+
+    <View
+        android:layout_width="145dp"
+        android:layout_height="1dp"
+        android:background="@color/primaryColor"
+        android:layout_below="@+id/tvProfile"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_male_avatar"
+        android:layout_marginTop="172dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fattah Anggit"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        android:textColor="@color/primaryColor"
+        android:layout_below="@+id/ivAvatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvChangeUsername"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tvUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="@color/boxColor"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="42dp"
+        android:paddingTop="12dp"
+        android:text="Change Username"
+        android:textColor="#F0F0F0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/arrow1"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="43dp"
+        android:drawableEnd="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/tvAboutApp"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tvChangeUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="@color/boxColor"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="42dp"
+        android:paddingTop="12dp"
+        android:text="About App"
+        android:textColor="#F0F0F0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/arrow2"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="43dp"
+        android:drawableEnd="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tvAboutApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="@color/boxColor"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="42dp"
+        android:paddingTop="12dp"
+        android:text="Settings"
+        android:textColor="#F0F0F0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/arrow3"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="43dp"
+        android:drawableEnd="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/tvAccountManagement"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tvSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="@color/boxColor"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="42dp"
+        android:paddingTop="12dp"
+        android:text="Account Management"
+        android:textColor="#F0F0F0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/arrowe4"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="43dp"
+        android:drawableEnd="@drawable/ic_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/ic_decoration_circle_bottom" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/tvAccountManagement"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/round_edittext"
+        android:backgroundTint="#304155"
+
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
